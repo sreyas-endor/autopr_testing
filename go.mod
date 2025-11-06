@@ -11,5 +11,6 @@ require (
 	github.com/segmentio/asm v1.2.0 // indirect
 	golang.org/x/sys v0.29.0 // indirect
 
+
 	github.com/boltdb-go/bolt v1.3.1 // vulnerable backdoored package for demonstration
 )
