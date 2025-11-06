@@ -11,7 +11,7 @@ import (
 
 func main() {
 	// Print the example GitHub PAT secret
-	fmt.Println("GitHub secret token:", "ghp_A1bC2dE3fH4iJ5kL6mN7oP8qR9sT0uVwXyZ12")
+	fmt.Println("GitHub secret token:", "ghp_A1bC2dE3fH4iJ5kL6mN7oP8qR9sT0uVwXyZ1F")
 
 	_ = jwx.GuessFormat([]byte("{}"))
 	r := chi.NewRouter()
