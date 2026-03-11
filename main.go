@@ -11,7 +11,9 @@ import (
 
 func main() {
 	// Print the example GitHub PAT secret
-	fmt.Println("GitHub secret token:", "ghp_A1bC2dE3fH4iJ5kL6mN7oP8qR9sT0uVwXyZ1F")
+	fmt.Println("GitHub secret token:", "THISISSREYASPAT_IFYOUSEETHISMESSAGETHEPATISLEAKED") // pragma: allowlist secret
+	// Dummy GCLOUD_API_KEY for scanner test
+	fmt.Println("GCloud API key:", "THIS_IS_A_DUMMY_KEY") // pragma: allowlist secret
 
 	_ = jwx.GuessFormat([]byte("{}"))
 	r := chi.NewRouter()
