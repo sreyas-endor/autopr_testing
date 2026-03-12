@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "beforeShellExecution": [
+      {
+        "type": "command",
+        "command": "python3 .cursor/hooks/restrict_shell_access.py"
+      }
+    ]
+  }
+}
