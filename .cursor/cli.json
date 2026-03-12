@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "deny": [
+      "Shell(bash)",
+      "Shell(sh)",
+      "Shell(zsh)",
+      "Shell(dash)",
+      "Shell(ksh)",
+      "Shell(/bin/bash)",
+      "Shell(/bin/sh)",
+      "Shell(/bin/zsh)"
+    ]
+  }
+}
