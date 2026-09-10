@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="266 24 220 256" width="220" role="img" aria-label="Darth Reviewer">
+  <style>
+    /* The source art is two CSS transform loops. Keeping them as real CSS is why this is a
+       few KB and runs at the browser's frame rate: the same motion as a GIF was 164 KB at
+       10 fps and visibly choppy. The sweep is tightened from the source art's 150px/50deg to
+       70px/35deg so the blade stays inside the figure's own bounds and the icon needs no
+       extra padding. Each animated group is wrapped so its transform origin
+       sits at 0 0, so no transform-origin or transform-box is needed, which is what makes
+       it render identically in Chrome, Firefox and Safari. */
+    .saber { animation: saber 3s ease-in-out infinite; }
+    .grip  { animation: grip 1.5s linear infinite; }
+    @keyframes saber {
+      0%, 100% { transform: translateX(0) rotate(-25deg); }
+      50%      { transform: translateX(70px) rotate(10deg); }
+    }
+    @keyframes grip { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .saber, .grip { animation: none; } }
+  </style>
+  <g transform="translate(-50 -95)">
+  <path d="M450 231.5H450A50 50 0 0 1 500 281.5V346.5H400V281.5A50 50 0 0 1 450 231.5Z" fill="#040507"/>
+  <ellipse cx="450" cy="356.5" rx="75" ry="7" fill="#000000" fill-opacity="0.15"/>
+  <path d="M450 246.5H450A30 30 0 0 1 480 276.5V326.5H420V276.5A30 30 0 0 1 450 246.5Z" fill="#222222"/>
+  <rect x="420" y="316.5" width="60" height="10" fill="#040507"/>
+  <rect x="435" y="271.5" width="30" height="32" fill="#343434"/>
+  <rect x="437" y="273.5" width="12" height="18" fill="#d81f27"/>
+  <rect x="451" y="283.5" width="12" height="8" fill="#d81f27"/>
+  <rect x="459" y="293.5" width="4" height="8" fill="#d81f27"/>
+  <rect x="451" y="273.5" width="12" height="8" fill="#455caa"/>
+  <rect x="437" y="293.5" width="20" height="8" fill="#9f9fa1"/>
+  <rect x="425" y="326.5" width="50" height="20" fill="#222222"/>
+  <path d="M460 346.5H480A10 10 0 0 1 490 356.5V356.5H460V346.5Z" fill="#040507"/>
+  <path d="M420 346.5H440V356.5H410V356.5A10 10 0 0 1 420 346.5Z" fill="#040507"/>
+  <path d="M445 316.5H455A5 5 0 0 1 460 321.5V321.5A5 5 0 0 1 455 326.5H445A5 5 0 0 1 440 321.5V321.5A5 5 0 0 1 445 316.5Z" fill="#c6c6c6"/>
+  <rect x="437" y="273.5" width="12" height="5" fill="#000000" fill-opacity="0.2"/>
+  <rect x="451" y="287.5" width="12" height="4" fill="#000000" fill-opacity="0.2"/>
+  <rect x="451" y="276.5" width="12" height="2" fill="#343434"/>
+  <rect x="442" y="293.5" width="2" height="8" fill="#343434"/>
+  <rect x="440" y="326.5" width="20" height="20" fill="#040507"/>
+  <rect x="437" y="284.5" width="12" height="2" fill="#343434"/>
+  <rect x="456" y="283.5" width="2" height="8" fill="#343434"/>
+  <rect x="449" y="293.5" width="8" height="8" fill="#000000" fill-opacity="0.2"/>
+  <g>
+  <path d="M450 156.5H450A45 45 0 0 1 495 201.5V236.5H405V201.5A45 45 0 0 1 450 156.5Z" fill="#222222"/>
+  <path d="M430 191.5H470A20 20 0 0 1 490 211.5V211.5A20 20 0 0 1 470 231.5H430A20 20 0 0 1 410 211.5V211.5A20 20 0 0 1 430 191.5Z" fill="#343434"/>
+  <ellipse cx="432" cy="211.5" rx="15" ry="15" fill="#010000"/>
+  <ellipse cx="468" cy="211.5" rx="15" ry="15" fill="#010000"/>
+  <rect x="443" y="231.5" width="2" height="10" fill="#c6c6c6"/>
+  <rect x="449" y="224.5" width="2" height="17" fill="#c6c6c6"/>
+  <rect x="456" y="231.5" width="2" height="10" fill="#c6c6c6"/>
+  <path d="M449 221.5H451A1 1 0 0 1 452 222.5V224.5A1 1 0 0 1 451 225.5H449A1 1 0 0 1 448 224.5V222.5A1 1 0 0 1 449 221.5Z" fill="#c6c6c6"/>
+  <path d="M463 237.5H465A1 1 0 0 1 466 238.5V240.5A1 1 0 0 1 465 241.5H463A1 1 0 0 1 462 240.5V238.5A1 1 0 0 1 463 237.5Z" fill="#c6c6c6"/>
+  <path d="M449 221.5H451A1 1 0 0 1 452 222.5V224.5A1 1 0 0 1 451 225.5H449A1 1 0 0 1 448 224.5V222.5A1 1 0 0 1 449 221.5Z" fill="#c6c6c6"/>
+  <path d="M435 237.5H437A1 1 0 0 1 438 238.5V240.5A1 1 0 0 1 437 241.5H435A1 1 0 0 1 434 240.5V238.5A1 1 0 0 1 435 237.5Z" fill="#c6c6c6"/>
+  <rect x="447" y="153.5" width="6" height="38" fill="#343434"/>
+  <path d="M450 156.5H450A25 8 0 0 1 475 164.5V164.5H425V164.5A25 8 0 0 1 450 156.5Z" fill="#040507"/>
+  <g transform="translate(443 231.5) matrix(0.766044 0.642788 -0.642788 0.766044 0 0) translate(-443 -231.5)"><path d="M443 219.5H443A2 2 0 0 1 445 221.5V241.5A2 2 0 0 1 443 243.5H443A2 2 0 0 1 441 241.5V221.5A2 2 0 0 1 443 219.5Z" fill="#040507"/></g>
+  <rect x="443" y="179.5" width="4" height="12" fill="#040507"/>
+  <g transform="translate(416.5 224) matrix(0.906308 0.422618 -0.422618 0.906308 0 0) translate(-416.5 -224)">
+  <rect x="399" y="196.5" width="35" height="55" fill="#040507"/>
+  <rect x="399" y="191.5" width="8" height="55" fill="#222222"/>
+  </g>
+  <g transform="translate(483.5 224) matrix(0.906308 -0.422618 0.422618 0.906308 0 0) translate(-483.5 -224)">
+  <rect x="466" y="196.5" width="35" height="55" fill="#040507"/>
+  <rect x="493" y="191.5" width="8" height="55" fill="#222222"/>
+  </g>
+  <g transform="translate(457 231.5) matrix(0.766044 -0.642788 0.642788 0.766044 0 0) translate(-457 -231.5)"><path d="M457 219.5H457A2 2 0 0 1 459 221.5V241.5A2 2 0 0 1 457 243.5H457A2 2 0 0 1 455 241.5V221.5A2 2 0 0 1 457 219.5Z" fill="#040507"/></g>
+  <rect x="453" y="179.5" width="4" height="12" fill="#040507"/>
+  </g>
+  <g>
+  <g>
+  <path d="M397 300.3H397V322.3H397A11 11 0 0 1 386 311.3V311.3A11 11 0 0 1 397 300.3Z" fill="#040507"/>
+  </g>
+  </g>
+  <g transform="translate(520 270.5)"><g class="grip"><g transform="translate(-520 -270.5)">
+  <g>
+  <ellipse cx="509" cy="269.5" rx="11" ry="11" fill="#040507"/>
+  </g>
+  </g></g></g>
+  <g>
+  <rect x="426" y="249.5" width="48" height="8" fill="#010000"/>
+  <rect x="447" y="251.5" width="6" height="10" fill="#434343"/>
+  <rect x="427" y="257.5" width="46" height="5" fill="#222222"/>
+  <path d="M434 241.5H466V247.5A4 4 0 0 1 462 251.5H438A4 4 0 0 1 434 247.5V241.5Z" fill="#222222"/>
+  <g transform="translate(432 254.5) matrix(0.866025 0.5 -0.5 0.866025 0 0) translate(-432 -254.5)">
+  <path d="M434 249.5H435V259.5H429V254.5A5 5 0 0 1 434 249.5Z" fill="#434343"/>
+  </g>
+  <g transform="translate(468 254.5) matrix(0.866025 -0.5 0.5 0.866025 0 0) translate(-468 -254.5)">
+  <path d="M465 249.5H466A5 5 0 0 1 471 254.5V259.5H465V249.5Z" fill="#434343"/>
+  </g>
+  <rect x="434" y="241.5" width="32" height="1" fill="#666666"/>
+  </g>
+  <g transform="translate(380 251.5)"><g class="saber"><g transform="translate(-380 -251.5)">
+  <rect x="379" y="131.5" width="3" height="120" fill="#f85032"/>
+  <rect x="377" y="251.5" width="6" height="30" fill="#343434"/>
+  <rect x="377" y="256.5" width="6" height="5" fill="#888888"/>
+  <rect x="375" y="256.5" width="4" height="5" fill="#343434"/>
+  </g></g></g>
+  </g>
+</svg>
